@@ -1,0 +1,7 @@
+#!/bin/bash
+echo "displaying content of the file: $1"
+sleep 2
+cat $1
+echo "compressing the file: $1"
+sleep 2
+bzip2 $1
